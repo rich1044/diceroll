@@ -1,0 +1,63 @@
+body{
+  color: white;
+  background-color: black;
+  font-family: "Arial";
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 75px;
+}
+p{
+  margin: 0;
+}
+
+.dice{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+#tLeft{
+  width: 464px;
+  float: left;
+}
+
+#tRight{
+  width: 464px;
+  float: right;
+}
+
+#bRight{
+  padding-top: 25px;
+  width: 464px;
+  float: right;
+  display: none;
+}
+#bLeft{
+  padding-top: 25px;
+  width: 464px;
+  float: left;
+  display: none;
+}
+
+form{
+  font-size: 25px;
+}
+
+input#sum{
+  font-size: 25px;
+  width: 30px;
+}
+
+button{
+  font-size: 25px;
+}
+
+input#radioButton{
+
+}

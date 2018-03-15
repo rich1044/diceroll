@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Roll the Dice!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Roll the Dice!</h1>
+
+      <input class="radioButton" id="radio1" name="number" type="radio">1
+      <input class="radioButton" id="radio2" name="number" type="radio" checked>2
+      <input class="radioButton" id="radio3" name="number" type="radio">3
+      <input class="radioButton" id="radio4" name="number" type="radio">4
+
+      <div class="dice">
+        <div id="tLeft">
+          <img id="TL1" src="images/1.png" alt="">
+          <img id="TL2" src="images/2.png" alt="">
+          <img id="TL3" src="images/3.png" alt="">
+          <img id="TL4" src="images/4.png" alt="">
+          <img id="TL5" src="images/5.png" alt="">
+          <img id="TL6" src="images/6.png" alt="">
+        </div>
+
+        <div id="tRight">
+          <img id="TR1" src="images/1.png" alt="">
+          <img id="TR2" src="images/2.png" alt="">
+          <img id="TR3" src="images/3.png" alt="">
+          <img id="TR4" src="images/4.png" alt="">
+          <img id="TR5" src="images/5.png" alt="">
+          <img id="TR6" src="images/6.png" alt="">
+        </div>
+
+        <div id="bLeft">
+          <img id="BL1" src="images/1.png" alt="">
+          <img id="BL2" src="images/2.png" alt="">
+          <img id="BL3" src="images/3.png" alt="">
+          <img id="BL4" src="images/4.png" alt="">
+          <img id="BL5" src="images/5.png" alt="">
+          <img id="BL6" src="images/6.png" alt="">
+        </div>
+
+        <div id="bRight">
+          <img id="BR1" src="images/1.png" alt="">
+          <img id="BR2" src="images/2.png" alt="">
+          <img id="BR3" src="images/3.png" alt="">
+          <img id="BR4" src="images/4.png" alt="">
+          <img id="BR5" src="images/5.png" alt="">
+          <img id="BR6" src="images/6.png" alt="">
+        </div>
+      </div><br>
+
+      <form>Sum:
+        <input id="sum" type="text" readonly="readonly"><br><br>
+
+        <button id="roll" type="button" >Roll</button>
+      </form>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
